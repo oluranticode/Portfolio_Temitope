@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #888888;
+  color: #000000;
   transition: 0.3s;
   font-size: 15px;
   font-family: "Raleway", sans-serif;
@@ -179,14 +179,30 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
+.nav-menu a:hover:before, .nav-menu li:hover > a:before {
   visibility: visible;
   width: 25px;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover, .nav-menu li:hover > a {
   color: #222222;
 }
+
+.nav-menu a:focus, .nav-menu li:focus > a {
+  background-color: #34b7a7;
+}
+
+.nav-menu a:active, .nav-menu li:active > a {
+  background-color: #34b7a7;
+}
+
+/* .nav-menu .active > a {
+  background-color: #34b7a7;
+}
+
+.nav-menu .active > a:after {
+  background-color: #34b7a7;
+} */
 
 .nav-menu .drop-down ul {
   display: block;
@@ -380,12 +396,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-social-links a {
-  color: #222222;
+  color: #34b7a7;
   padding-left: 6px;
   display: inline-block;
   line-height: 1px;
   transition: 0.3s;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .header-social-links a:hover {
@@ -1226,8 +1242,8 @@ section {
   margin: 0 10px -6px 0;
   border: 3px solid #18d26e;
   border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
+  -webkit-animation: animate-loading 1s linear infinite; 
+   animation: animate-loading 1s linear infinite;
 }
 
 .contact .php-email-form input, .contact .php-email-form textarea {

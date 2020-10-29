@@ -179,6 +179,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 
+
 .nav-menu a:hover:before, .nav-menu li:hover > a:before {
   visibility: visible;
   width: 25px;
@@ -189,11 +190,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:focus, .nav-menu li:focus > a {
-  background-color: #34b7a7;
+  background-color: #222222;
 }
 
 .nav-menu a:active, .nav-menu li:active > a {
-  background-color: #34b7a7;
+  color: #222222;
 }
 
 /* .nav-menu .active > a {

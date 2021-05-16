@@ -1,9 +1,10 @@
-/**
-* Template Name: Kelly - v2.0.0
-* Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+function myAge(){
+  var age = document.getElementById('age').innerHTML; 
+ var d = new Date();
+ var current_year = d.getFullYear();
+ age = current_year - 1996;  
+}
+
 !(function($) {
   "use strict";
 
